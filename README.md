@@ -22,19 +22,23 @@ A sophisticated Flask-based web application that delivers high-quality text summ
    git clone <repository-url>
    cd text-summarization-app
    ```
+2.Download Model Files
 
-2. Create and activate a virtual environment:
+  To run this project, you need to download the required model files from the following Google Drive folder:
+  https://drive.google.com/drive/folders/1kBD-oGoUIIXexkFvkJsQVfgltzXWZkAm?usp=share_link
+  
+3. Create and activate a virtual environment:
    ```
    python -m venv venv
    source venv/bin/activate  # On Windows, use: venv\Scripts\activate
    ```
 
-3. Install the required dependencies:
+4. Install the required dependencies:
    ```
    pip install -r requirements.txt
    ```
 
-4. Download required NLTK data:
+5. Download required NLTK data:
    ```python
    python -c "import nltk; nltk.download('punkt')"
    ```
@@ -118,4 +122,5 @@ The application leverages industry-standard libraries:
 
 ## Development
 
-Designed and developed by VINAY AKULA
+Designed and developed by Rohit K
+
